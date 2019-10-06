@@ -2,27 +2,93 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="book-online:war exploded" />
+      <artifact name="film-online:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7555e920-d8c5-41c3-b239-8469ec8b27bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/quickstart_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/book-online.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-web-dev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/quickstart.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/src/com/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quickstart/web/preson.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/film_online_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/listener/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/BookDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LoginPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/servlet/UserPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/com/bo/utils/Md5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/book_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/book9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/web/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/film-online.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/entity/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/listener/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/servlet/FilmDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/servlet/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/servlet/LoginPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/servlet/UserPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/src/com/bo/utils/Md5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/film_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/film9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/loginb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/film-online/web/user.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/WEB-INF/classes/com/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/quickstart_war_exploded/preson.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/quickstart/com/LoginServlet.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +99,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
+        <option value="jsf" />
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -50,12 +124,17 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1RQ8y2FvhlPUMRy9zGdrYrRsR9q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quickstart/src/com/web/LoginServlet.java" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/film-online/src/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/film-online/web/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,6 +144,20 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bo.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaWeb\java-web-dev\film-online\web\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaWeb\java-web-dev\film-online\web\images" />
+      <recent name="E:\JavaWeb\java-web-dev\book-online\web\images" />
+      <recent name="E:\JavaWeb\java-web-dev\book-online\web" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,17 +173,18 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="quickstart:war exploded">
+        <artifact name="film-online:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_24_java-web-dev" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_24_java-web-dev_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -98,7 +192,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="65051" />
+        <option name="DEBUG_PORT" value="53356" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -148,7 +242,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="book-online:war exploded" />
+          <artifact name="film-online:war exploded" />
         </option>
       </method>
     </configuration>
@@ -164,8 +258,28 @@
       <option name="presentableId" value="Default" />
       <updated>1569588209981</updated>
       <workItem from="1569588216406" duration="1786000" />
-      <workItem from="1569598232680" duration="2020000" />
+      <workItem from="1569598232680" duration="5999000" />
+      <workItem from="1569628554240" duration="2680000" />
+      <workItem from="1570067196351" duration="6236000" />
+      <workItem from="1570073723574" duration="15801000" />
+      <workItem from="1570151333242" duration="26299000" />
+      <workItem from="1570231813602" duration="24210000" />
+      <workItem from="1570272701143" duration="6136000" />
+      <workItem from="1570280760713" duration="7365000" />
+      <workItem from="1570289651961" duration="2808000" />
+      <workItem from="1570319790765" duration="14761000" />
+      <workItem from="1570337299436" duration="639000" />
+      <workItem from="1570340777825" duration="3449000" />
+      <workItem from="1570347193014" duration="258000" />
     </task>
+    <task id="LOCAL-00001" summary="java-web-dev的多模块项目初始化，两个模块">
+      <created>1569600465480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569600465498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,10 +290,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java-web-dev的多模块项目初始化，两个模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="java-web-dev的多模块项目初始化，两个模块" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/book-online/src/com/bo/servlet/IndexServlet.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
